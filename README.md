@@ -5,7 +5,7 @@ A-speech-filtering-system-based-on-matlab-and-its-graphical-interface-implementa
 2. 在实现滤波的同时，绘出原语音信号、滤波后的语音信号的频域、时域图像，同时绘出滤波器特性图
 3. 可以录制语音信号，播放原语音信号以及滤波后的语音信号
 ## 功能特性
-1. 本次图形化界面使用的是matlabapp而非GUI，使用回调函数实现其中的功能
+1. 本次图形化界面使用的是matlabapp，使用回调函数实现其中的功能
 2. 滤波方法上选择了椭圆滤波器，在Matlab中使用ellipord和ellip函数实现。首先使用ellipord计算所需的滤波器阶数和截止频率，然后使用ellip函数设计滤波器系数b(a)。接下来，通过bilinear函数将s域的滤波器转换为z域的滤波器。最后，使用freqz函数计算该数字滤波器在频率域的响应值。
 ## 可调节参数
 1. 录音时间
